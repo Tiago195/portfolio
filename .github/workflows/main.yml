@@ -2,7 +2,7 @@ on: [push, pull_request]
 
 jobs:
   eslint:
-    runs-on: ubunto-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Verifica o repositório Git
         uses: actions/checkout@v2
